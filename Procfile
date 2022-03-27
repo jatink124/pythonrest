@@ -1,1 +1,1 @@
-web: gunicorn DjangoAPI wsgi.py --log-file -
+web: gunicorn inventory.wsgi:application
